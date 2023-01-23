@@ -6,7 +6,8 @@ try:
     ihrs = float(hrs)
     irte = float(rte)
 except:
-    ihrs 
+    print("Please enter numeric values")
+    quit() #exits the program in the event of exceptions 
 
 if ihrs <= 40:
     gp = ihrs * irte
