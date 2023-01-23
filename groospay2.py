@@ -10,7 +10,9 @@ except:
 
 if ihrs <= 40:
     gp = ihrs * irte
+    print("Regular worker")
     print("The gross pay is: ",gp)
 elif ihrs > 40:
     gp = (40 * irte) + ((ihrs - 40)*(irte * 1.5))
+    print("Overtime Worker")
     print("The gross pay is: ",gp)
