@@ -13,3 +13,23 @@ def print_lyrics():
 
 print("My name is.. My name is..")
 print_lyrics()
+
+#arguments are values passed into the function as input upon invocation
+#parameters are variables used in function block to allow access to arguments
+#simple language checker program for greetings
+def greet(lang):
+    if lang == 'Oe':
+        print('Swahili')
+    elif lang == 'Koniichiwa':
+        print('Japanese')
+    elif lang == 'Salut':
+        print('French')
+    elif lang == 'Hello':
+        print('English')
+    elif lang == 'Hola':
+        print('Spanish')
+    else:
+        print('Sumn else')
+
+tgreet = input("Greet me: ")
+greet(tgreet)
