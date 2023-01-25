@@ -35,6 +35,7 @@ tgreet = input("Greet me: ")
 greet(tgreet)
 
 #return value produces results
+#you do not have to call return as it implicitly occurs as the last line of a function
 #rewritting above code to greet somebody
 def greet(lang):
     if lang == 'Swahili':
