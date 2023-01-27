@@ -21,3 +21,13 @@ while True: #infinite loop declaration
         break #prompts exit in an infinite loop
     print(line)
 print('Done')
+
+#function of continue statement
+while True:
+    line1 = input('Tell me> ')
+    if line1[0] == '#':
+        continue #stops iteration and reruns the loop from start
+    if line1 == 'done':
+        break
+    print(line1)
+print('Done!')
