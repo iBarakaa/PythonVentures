@@ -34,7 +34,7 @@ print('Done!')
 
 #definite loops
 #these iterate through members of a set
-for i in [5, 4, 3, 2, 1]:
+for i in [5, 4, 3, 2, 1]: #for each value in the set
     print(i)
 print('Blastoff!')
 
