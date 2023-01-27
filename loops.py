@@ -14,3 +14,10 @@ print(n)
 # print('Dry off')
 #uncomment the code to see the behaviour of an infinite loop
 
+#instance of infinite loop exit 
+while True: #infinite loop declaration
+    line = input('Tell me> ')
+    if line == 'done':
+        break #prompts exit in an infinite loop
+    print(line)
+print('Done')
