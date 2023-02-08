@@ -24,3 +24,16 @@ print(ldgsm_birth.strftime("%A, %B %d, %Y"))
 message = "The LDGSM was born on {:%A, %B %d, %Y} "
 print(message.format(ldgsm_birth))
 
+# object creation using classes in datetime 
+fly_day = datetime.date(2023, 5, 17)
+print(fly_day)
+
+# hours minutes and seconds
+fly_time = datetime.time(0, 30, 0)
+print(fly_time)
+
+# concatenation of date and time classes
+# you can access all from this one
+fly_datetime = datetime.datetime(2023, 5, 17, 0, 30, 0)
+print(fly_datetime)
+
