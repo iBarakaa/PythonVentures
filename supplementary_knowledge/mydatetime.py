@@ -18,6 +18,7 @@ print(hundredDays_before_ldgsm_birth + ldgsm_birth)
 # to create custom formats we create format code
 # day-name, month-name day no., year - custom format
 # method 1 (strftime method), where %A - day of the week name, %B - month name, %d - day in the month, %Y - yr
+# string format time = strftime
 print(ldgsm_birth.strftime("%A, %B %d, %Y"))
 
 # method 2
@@ -36,4 +37,18 @@ print(fly_time)
 # you can access all from this one
 fly_datetime = datetime.datetime(2023, 5, 17, 0, 30, 0)
 print(fly_datetime)
+
+# Current date time
+now_now = datetime.date.today()
+precisely_now = datetime.datetime.today()
+print(now_now)
+print(precisely_now)
+
+# conversion of string representations to date-time
+# use of the method strptime(), string parse time method
+supposed_moon_landing = "7/20/1969"
+
+# the print is an object
+supposed_moon_landing_datetime = datetime.datetime.strptime(supposed_moon_landing, "%m/%d/%Y")
+print(supposed_moon_landing_datetime)
 
